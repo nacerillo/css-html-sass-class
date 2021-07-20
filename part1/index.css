@@ -1,0 +1,35 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product_section {
+    background: #ff1b68;
+}
+.section-title {
+    color: rgb(98, 235, 57);
+ }
+/*
+combinators:
+ a + b direct sibling
+ a ~ b general sibling
+ a > b direct child
+ a b   decendent
+
+Values
+pre-defined;
+colors
+lengs/sizes/numbers
+functions
+
+*/
+ h1 + p {
+     font-style: italic;
+ }
+#product_section h1{
+    color: white;
+    font-family:  'Anton', sans-serif;   
+}
+
+
+
+
