@@ -1,0 +1,8 @@
+1. build a nice box, give it content, a
+2. add border/padding/margin. different on each side
+3. add the same box below that one. see if you identify any weird behavior
+4. give the first box a height of 100% of the window height
+5. set the first box back to a more reasonable height of 300px and set widht to 50%
+6. position the two boxes next to each other
+7. "hide" box one and see how that changes the page
+8. add a hover property to the last div element. use pseduo-class to accomplish this. 

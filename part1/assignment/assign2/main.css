@@ -1,0 +1,24 @@
+
+.box-1 {
+    background-color: rgb(4, 206, 206);
+    border: 1px solid navy;
+    margin: 0;
+    box-sizing: border-box;
+    width: 50%;
+    display: inline-block;
+    height: 300px;
+    text-align: center;
+    white-space: normal;
+}
+.first{
+    display: none;
+}
+html,body{
+    width:100%;
+    height: 100%;
+    white-space: nowrap;
+}
+
+div:last-of-type:hover{
+    background-color: greenyellow;
+}
