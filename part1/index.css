@@ -1,13 +1,27 @@
-body {
-    font-family: 'Montserrat', sans-serif;
+
+
+*{
+    box-sizing: border-box;
 }
 
-#product_section {
-    background: #ff1b68;
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
+
+#product-overview {
+ /*  background: #ff1b68;*/
+   background: url("images/freedom.jpg");
+   width: 100%;
+   height: 528px;
+   padding: 10px; 
+}
+
 .section-title {
     color: rgb(98, 235, 57);
+    font-weight: bold;
  }
+ 
 /*
 combinators:
  a + b direct sibling
@@ -22,12 +36,74 @@ lengs/sizes/numbers
 functions
 
 */
- h1 + p {
-     font-style: italic;
- }
-#product_section h1{
+
+#product-overview h1 {
     color: white;
     font-family:  'Anton', sans-serif;   
+}
+.main-header {
+  
+    background-color: rgb(98, 235, 57);
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.main-header > div{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+  text-decoration: none;
+  color:rgb(37, 94, 20);
+ font-weight: bolder;
+ font-size: 20px;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 74px);
+    vertical-align: middle;
+}
+
+
+.main-nav__items{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-nav__item {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.main-nav__item  a{
+    text-decoration: none;
+    color:rgb(37, 94, 20);
+    font-weight: bolder;
+    padding: 3px;
+}
+
+.main-nav__item a:hover, 
+.main-nav__item a:active{
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background-color: #ff1b68;
+    padding: 6px 16px;
+    border-radius: 5px;
+}
+
+.main-nav__item--cta a:hover, 
+.main-nav__item-cta a:active{
+    color: #ff1b68;
+    background-color: white;
+    border-bottom: none;
 }
 
 
