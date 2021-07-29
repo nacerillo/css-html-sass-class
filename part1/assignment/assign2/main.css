@@ -5,13 +5,14 @@
     margin: 0;
     box-sizing: border-box;
     width: 50%;
+    padding: 10px;
     display: inline-block;
     height: 300px;
     text-align: center;
     white-space: normal;
 }
 .first{
-    display: none;
+   
 }
 html,body{
     width:100%;
